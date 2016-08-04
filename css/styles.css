@@ -103,6 +103,12 @@ body {
   font-family: 'Poiret One', cursive;
   padding-top:20px;
 }
+@media (max-width: 768px) {
+  .row-banner h1 {
+    font-size:1.5em;
+    padding-top:0px;
+  }
+}
 .row-content {
   margin:0px 3% 0px 3%;
 }
@@ -176,7 +182,7 @@ body {
 .row-footer {
   bottom:0px;
   z-index:100;
-  width:100%;
+  width:100vw;
   text-align:center;
   background-image:url(../img/crsl-bg.png);
   border-top:solid 8px #000;
