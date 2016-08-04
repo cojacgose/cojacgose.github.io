@@ -168,8 +168,12 @@ body {
 .row-space {
   height:20vh;
 }
+@media (min-width: 768px) {
+  .row-footer {
+    position:fixed;
+  }
+}
 .row-footer {
-  position:fixed;
   bottom:0px;
   z-index:100;
   width:100%;
@@ -177,7 +181,6 @@ body {
   background-image:url(../img/crsl-bg.png);
   border-top:solid 8px #000;
 }
-
 .row-footer .fa {
   font-size:1.5em;
   color:#88AAAB;
